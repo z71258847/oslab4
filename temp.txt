@@ -1233,9 +1233,9 @@ The job mix number is 4.
 The number of references per process is 100.
 The replacement algorithm is lru.
 The level of debugging output is 0
-Process 1 had 9 faults and 31.42857 average residency.
-Process 2 had 18 faults and 17.12500 average residency.
-Process 3 had 8 faults and 49.83333 average residency.
-Process 4 had 15 faults and 23.08333 average residency.
+Process 1 had 9 faults and 100.14286 average residency.
+Process 2 had 18 faults and 54.68750 average residency.
+Process 3 had 8 faults and 106.16667 average residency.
+Process 4 had 15 faults and 76.25000 average residency.
 
-The total number of faults is 50 and the overall average residency is 26.09756.
+The total number of faults is 50 and the overall average residency is 76.29268.

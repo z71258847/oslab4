@@ -14,7 +14,7 @@ double get_random(){
 	int x;
 	double y;
 	randomin >> x;
-	printf("used random number:%d\n", x);
+	//printf("used random number:%d\n", x);
 	y = (double) x / 2147483648.0;
 	return y;
 }
@@ -57,7 +57,7 @@ struct Process{
 		else{
 			int x;
 			randomin >> x;
-			printf("used random number:%d\n", x);
+			//printf("used random number:%d\n", x);
 			cur = x % S;
 		}
 	}
@@ -127,7 +127,7 @@ void lru_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time[last_page];
 	pros[x].load_time[page_number] = cur_t;
-	printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
+	//printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
 void do_replacement(int x, int page_number){	
@@ -190,7 +190,7 @@ int main(int argc, char* argv[]){
 				for (int q=0; q<3; q++) {
 					cur_t++;
 					int cur_page = pros[i].cur / P;
-					printf("%d reference %d (page %d)\n", i, pros[i].cur, cur_page);
+					//printf("%d reference %d (page %d)\n", i, pros[i].cur, cur_page);
 					if (pros[i].page_table[cur_page] == -1){
 						pros[i].fault_count++;
 						int free_frame = check_free();
@@ -204,7 +204,7 @@ int main(int argc, char* argv[]){
 							frame_table[free_frame].used = true;
 							pros[i].page_table[cur_page] = free_frame;
 							pros[i].load_time[cur_page] = cur_t;
-							printf("fault, using free frame %d\n", free_frame);
+							//printf("fault, using free frame %d\n", free_frame);
 						}
 						last_in = pros[i].page_table[cur_page];
 						frame_table[last_in].last_use = cur_t;
@@ -212,7 +212,7 @@ int main(int argc, char* argv[]){
 					else {
 						int frame_used = pros[i].page_table[cur_page];
 						frame_table[frame_used].last_use = cur_t;
-						printf("hit frame %d\n", frame_used);
+						//printf("hit frame %d\n", frame_used);
 					}
 					if (--pros[i].remain == 0){
 						pros[i].finished = true;
@@ -225,14 +225,13 @@ int main(int argc, char* argv[]){
 			}
 		}
 	}
-	cout << endl;
 	printf("The machine size is %d.\n", M);
 	printf("The page size is %d.\n", P);
 	printf("The process size is %d.\n", S);
 	printf("The job mix number is %d.\n", J);
 	printf("The number of references per process is %d.\n", N);
 	printf("The replacement algorithm is %s.\n", argv[6]);
-	printf("The level of debugging output is %d\n", debug);
+	printf("The level of debugging output is %d\n\n", debug);
 	int tot_fault = 0, tot_recidency = 0, tot_evict = 0;
 	for (int i=1; i<=tot_process; i++) {
 		if (pros[i].evict_count==0) {
