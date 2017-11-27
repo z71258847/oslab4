@@ -80,6 +80,7 @@ void lifo_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
 	pros[x].load_time = cur_t;
+	printf("%d evict %d on frame %d\n", x, last_process, last_in);
 }
 
 void random_replacement(int x, int page_number){
@@ -95,6 +96,7 @@ void random_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
 	pros[x].load_time = cur_t;
+	printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
 int choose_lru(){
@@ -119,6 +121,7 @@ void lru_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
 	pros[x].load_time = cur_t;
+	printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
 void do_replacement(int x, int page_number){	
@@ -144,10 +147,10 @@ int main(int argc, char* argv[]){
 	N = atoi(argv[5]);
 	//string key = argv[6];
 	debug = atoi(argv[7]);
-	//M=20; P=10; S=10; J=3; N=10; string key="lifo"; debug=0;
 	if (strcmp(argv[6], "lifo")) R=0;
 	else if(strcmp(argv[6], "random")) R=1;
 	else if(strcmp(argv[6], "lru")) R=2;
+	//M=20; P=10; S=10; J=2; N=10; R=2; debug=0;
 	tot_frame = M / P;
 	tot_page = S / P;
 	frame_table.clear();
@@ -180,7 +183,7 @@ int main(int argc, char* argv[]){
 				for (int q=0; q<3; q++) {
 					cur_t++;
 					int cur_page = (pros[i].cur - 1) / P;
-					//printf("%d reference %d (page %d)\n", i, pros[i].cur, cur_page);
+					printf("%d reference %d (page %d)\n", i, pros[i].cur, cur_page);
 					if (pros[i].page_table[cur_page] == -1){
 						pros[i].fault_count++;
 						int free_frame = check_free();
@@ -194,6 +197,7 @@ int main(int argc, char* argv[]){
 							frame_table[free_frame].used = true;
 							pros[i].page_table[cur_page] = free_frame;
 							pros[i].load_time = cur_t;
+							printf("fault, using free frame %d\n", free_frame);
 						}
 						last_in = pros[i].page_table[cur_page];
 						frame_table[last_in].last_use = cur_t;
@@ -201,6 +205,7 @@ int main(int argc, char* argv[]){
 					else {
 						int frame_used = pros[i].page_table[cur_page];
 						frame_table[frame_used].last_use = cur_t;
+						printf("hit frame %d\n", frame_used);
 					}
 					if (--pros[i].remain == 0){
 						pros[i].finished = true;
@@ -240,4 +245,5 @@ int main(int argc, char* argv[]){
 	else{
 		printf("The total number of faults is %d and the overall average residency is %.5lf.\n", tot_fault, (double) tot_recidency/tot_evict);
 	}
+	randomin.close();
 } 
