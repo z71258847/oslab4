@@ -1,0 +1,1241 @@
+1 reference 31 (page 3)
+fault, using free frame 8
+used random number:1804289383
+1 reference 26 (page 2)
+fault, using free frame 7
+used random number:846930886
+1 reference 27 (page 2)
+hit frame 7
+used random number:1681692777
+2 reference 22 (page 2)
+fault, using free frame 6
+used random number:1714636915
+2 reference 26 (page 2)
+hit frame 6
+used random number:1957747793
+2 reference 30 (page 3)
+fault, using free frame 5
+used random number:424238335
+3 reference 13 (page 1)
+fault, using free frame 4
+used random number:719885386
+3 reference 14 (page 1)
+hit frame 4
+used random number:1649760492
+3 reference 9 (page 0)
+fault, using free frame 3
+used random number:596516649
+4 reference 4 (page 0)
+fault, using free frame 2
+used random number:1189641421
+4 reference 39 (page 3)
+fault, using free frame 1
+used random number:1025202362
+4 reference 0 (page 0)
+hit frame 2
+used random number:1350490027
+1 reference 22 (page 2)
+hit frame 7
+used random number:783368690
+1 reference 23 (page 2)
+hit frame 7
+used random number:1102520059
+1 reference 24 (page 2)
+hit frame 7
+used random number:2044897763
+2 reference 31 (page 3)
+hit frame 5
+used random number:1967513926
+2 reference 35 (page 3)
+hit frame 5
+used random number:1365180540
+2 reference 36 (page 3)
+hit frame 5
+used random number:1540383426
+3 reference 10 (page 1)
+hit frame 4
+used random number:304089172
+3 reference 11 (page 1)
+hit frame 4
+used random number:1303455736
+3 reference 12 (page 1)
+hit frame 4
+used random number:35005211
+4 reference 4 (page 0)
+hit frame 2
+used random number:521595368
+4 reference 5 (page 0)
+hit frame 2
+used random number:294702567
+4 reference 6 (page 0)
+hit frame 2
+used random number:1726956429
+used random number:336465782
+1 reference 19 (page 1)
+fault, using free frame 0
+used random number:861021530
+1 reference 20 (page 2)
+hit frame 7
+used random number:278722862
+1 reference 21 (page 2)
+hit frame 7
+used random number:233665123
+2 reference 37 (page 3)
+hit frame 5
+used random number:2145174067
+2 reference 1 (page 0)
+2 evict 1 on frame 8
+used random number:468703135
+2 reference 2 (page 0)
+hit frame 8
+used random number:1101513929
+3 reference 13 (page 1)
+hit frame 4
+used random number:1801979802
+3 reference 8 (page 0)
+hit frame 3
+used random number:1315634022
+3 reference 9 (page 0)
+hit frame 3
+used random number:635723058
+4 reference 22 (page 2)
+4 evict 2 on frame 6
+used random number:1369133069
+4 reference 26 (page 2)
+hit frame 6
+used random number:1125898167
+4 reference 21 (page 2)
+hit frame 6
+used random number:1059961393
+1 reference 22 (page 2)
+hit frame 7
+used random number:2089018456
+1 reference 17 (page 1)
+hit frame 0
+used random number:628175011
+1 reference 18 (page 1)
+hit frame 0
+used random number:1656478042
+2 reference 3 (page 0)
+hit frame 8
+used random number:1131176229
+2 reference 4 (page 0)
+hit frame 8
+used random number:1653377373
+2 reference 8 (page 0)
+hit frame 8
+used random number:859484421
+3 reference 10 (page 1)
+hit frame 4
+used random number:1914544919
+3 reference 14 (page 1)
+hit frame 4
+used random number:608413784
+3 reference 15 (page 1)
+hit frame 4
+used random number:756898537
+4 reference 22 (page 2)
+hit frame 6
+used random number:1734575198
+used random number:1973594324
+4 reference 4 (page 0)
+hit frame 2
+used random number:149798315
+4 reference 5 (page 0)
+hit frame 2
+used random number:2038664370
+used random number:1129566413
+1 reference 13 (page 1)
+hit frame 0
+used random number:184803526
+1 reference 14 (page 1)
+hit frame 0
+used random number:412776091
+1 reference 15 (page 1)
+hit frame 0
+used random number:1424268980
+2 reference 9 (page 0)
+hit frame 8
+used random number:1911759956
+2 reference 13 (page 1)
+2 evict 4 on frame 1
+used random number:749241873
+2 reference 14 (page 1)
+hit frame 1
+used random number:137806862
+3 reference 16 (page 1)
+hit frame 4
+used random number:42999170
+3 reference 17 (page 1)
+hit frame 4
+used random number:982906996
+3 reference 18 (page 1)
+hit frame 4
+used random number:135497281
+4 reference 13 (page 1)
+4 evict 2 on frame 5
+used random number:511702305
+4 reference 14 (page 1)
+hit frame 5
+used random number:2084420925
+used random number:1937477084
+4 reference 4 (page 0)
+hit frame 2
+used random number:1827336327
+used random number:572660336
+1 reference 16 (page 1)
+hit frame 0
+used random number:1159126505
+1 reference 17 (page 1)
+hit frame 0
+used random number:805750846
+1 reference 18 (page 1)
+hit frame 0
+used random number:1632621729
+2 reference 15 (page 1)
+hit frame 1
+used random number:1100661313
+2 reference 16 (page 1)
+hit frame 1
+used random number:1433925857
+2 reference 17 (page 1)
+hit frame 1
+used random number:1141616124
+3 reference 19 (page 1)
+hit frame 4
+used random number:84353895
+3 reference 20 (page 2)
+3 evict 3 on frame 3
+used random number:939819582
+3 reference 21 (page 2)
+hit frame 3
+used random number:2001100545
+4 reference 16 (page 1)
+hit frame 5
+used random number:1998898814
+used random number:1548233367
+4 reference 7 (page 0)
+hit frame 2
+used random number:610515434
+4 reference 8 (page 0)
+hit frame 2
+used random number:1585990364
+1 reference 13 (page 1)
+hit frame 0
+used random number:1374344043
+1 reference 14 (page 1)
+hit frame 0
+used random number:760313750
+1 reference 15 (page 1)
+hit frame 0
+used random number:1477171087
+2 reference 18 (page 1)
+hit frame 1
+used random number:356426808
+2 reference 19 (page 1)
+hit frame 1
+used random number:945117276
+2 reference 20 (page 2)
+2 evict 1 on frame 7
+used random number:1889947178
+3 reference 25 (page 2)
+hit frame 3
+used random number:1780695788
+3 reference 20 (page 2)
+hit frame 3
+used random number:709393584
+3 reference 21 (page 2)
+hit frame 3
+used random number:491705403
+4 reference 12 (page 1)
+hit frame 5
+used random number:1918502651
+used random number:752392754
+4 reference 34 (page 3)
+4 evict 4 on frame 6
+used random number:1474612399
+4 reference 38 (page 3)
+hit frame 6
+used random number:2053999932
+used random number:1264095060
+1 reference 16 (page 1)
+hit frame 0
+used random number:1411549676
+1 reference 17 (page 1)
+hit frame 0
+used random number:1843993368
+1 reference 12 (page 1)
+hit frame 0
+used random number:943947739
+2 reference 24 (page 2)
+hit frame 7
+used random number:1984210012
+2 reference 28 (page 2)
+hit frame 7
+used random number:855636226
+2 reference 29 (page 2)
+hit frame 7
+used random number:1749698586
+3 reference 22 (page 2)
+hit frame 3
+used random number:1469348094
+3 reference 23 (page 2)
+hit frame 3
+used random number:1956297539
+3 reference 27 (page 2)
+hit frame 3
+used random number:1036140795
+4 reference 20 (page 2)
+4 evict 2 on frame 8
+used random number:463480570
+4 reference 21 (page 2)
+hit frame 8
+used random number:2040651434
+used random number:1975960378
+4 reference 18 (page 1)
+hit frame 5
+used random number:317097467
+1 reference 13 (page 1)
+hit frame 0
+used random number:1892066601
+1 reference 8 (page 0)
+1 evict 3 on frame 4
+used random number:1376710097
+1 reference 9 (page 0)
+hit frame 4
+used random number:927612902
+2 reference 33 (page 3)
+2 evict 4 on frame 2
+used random number:1330573317
+2 reference 34 (page 3)
+hit frame 2
+used random number:603570492
+2 reference 35 (page 3)
+hit frame 2
+used random number:1687926652
+3 reference 28 (page 2)
+hit frame 3
+used random number:660260756
+3 reference 29 (page 2)
+hit frame 3
+used random number:959997301
+3 reference 30 (page 3)
+3 evict 2 on frame 1
+used random number:485560280
+4 reference 19 (page 1)
+hit frame 5
+used random number:402724286
+4 reference 20 (page 2)
+hit frame 8
+used random number:593209441
+4 reference 21 (page 2)
+hit frame 8
+used random number:1194953865
+1 reference 10 (page 1)
+hit frame 0
+used random number:894429689
+1 reference 11 (page 1)
+hit frame 0
+used random number:364228444
+1 reference 12 (page 1)
+hit frame 0
+used random number:1947346619
+2 reference 39 (page 3)
+hit frame 2
+used random number:221558440
+2 reference 0 (page 0)
+2 evict 4 on frame 6
+used random number:270744729
+2 reference 1 (page 0)
+hit frame 6
+used random number:1063958031
+3 reference 31 (page 3)
+hit frame 1
+used random number:1633108117
+3 reference 26 (page 2)
+hit frame 3
+used random number:2114738097
+3 reference 30 (page 3)
+hit frame 1
+used random number:2007905771
+4 reference 16 (page 1)
+hit frame 5
+used random number:1469834481
+4 reference 20 (page 2)
+hit frame 8
+used random number:822890675
+4 reference 21 (page 2)
+hit frame 8
+used random number:1610120709
+1 reference 7 (page 0)
+hit frame 4
+used random number:791698927
+1 reference 8 (page 0)
+hit frame 4
+used random number:631704567
+1 reference 9 (page 0)
+hit frame 4
+used random number:498777856
+2 reference 2 (page 0)
+hit frame 6
+used random number:1255179497
+2 reference 3 (page 0)
+hit frame 6
+used random number:524872353
+2 reference 4 (page 0)
+hit frame 6
+used random number:327254586
+3 reference 34 (page 3)
+hit frame 1
+used random number:1572276965
+3 reference 35 (page 3)
+hit frame 1
+used random number:269455306
+3 reference 36 (page 3)
+hit frame 1
+used random number:1703964683
+4 reference 25 (page 2)
+hit frame 8
+used random number:352406219
+4 reference 26 (page 2)
+hit frame 8
+used random number:1600028624
+4 reference 30 (page 3)
+4 evict 2 on frame 7
+used random number:160051528
+1 reference 10 (page 1)
+hit frame 0
+used random number:2040332871
+1 reference 5 (page 0)
+hit frame 4
+used random number:112805732
+1 reference 6 (page 0)
+hit frame 4
+used random number:1120048829
+2 reference 5 (page 0)
+hit frame 6
+used random number:378409503
+2 reference 6 (page 0)
+hit frame 6
+used random number:515530019
+2 reference 7 (page 0)
+hit frame 6
+used random number:1713258270
+3 reference 31 (page 3)
+hit frame 1
+used random number:1573363368
+3 reference 32 (page 3)
+hit frame 1
+used random number:1409959708
+3 reference 33 (page 3)
+hit frame 1
+used random number:2077486715
+4 reference 31 (page 3)
+hit frame 7
+used random number:1373226340
+4 reference 35 (page 3)
+hit frame 7
+used random number:1631518149
+used random number:200747796
+4 reference 36 (page 3)
+hit frame 7
+used random number:289700723
+1 reference 7 (page 0)
+hit frame 4
+used random number:1117142618
+1 reference 8 (page 0)
+hit frame 4
+used random number:168002245
+1 reference 9 (page 0)
+hit frame 4
+used random number:150122846
+2 reference 11 (page 1)
+2 evict 2 on frame 2
+used random number:439493451
+2 reference 12 (page 1)
+hit frame 2
+used random number:990892921
+2 reference 13 (page 1)
+hit frame 2
+used random number:1760243555
+3 reference 37 (page 3)
+hit frame 1
+used random number:1231192379
+3 reference 38 (page 3)
+hit frame 1
+used random number:1622597488
+3 reference 33 (page 3)
+hit frame 1
+used random number:111537764
+4 reference 37 (page 3)
+hit frame 7
+used random number:338888228
+4 reference 38 (page 3)
+hit frame 7
+used random number:2147469841
+used random number:438792350
+4 reference 30 (page 3)
+hit frame 7
+used random number:1911165193
+used random number:269441500
+1 reference 10 (page 1)
+hit frame 0
+used random number:2142757034
+1 reference 5 (page 0)
+hit frame 4
+used random number:116087764
+1 reference 6 (page 0)
+hit frame 4
+used random number:1869470124
+2 reference 17 (page 1)
+hit frame 2
+used random number:155324914
+2 reference 18 (page 1)
+hit frame 2
+used random number:8936987
+2 reference 19 (page 1)
+hit frame 2
+used random number:1982275856
+3 reference 34 (page 3)
+hit frame 1
+used random number:1275373743
+3 reference 35 (page 3)
+hit frame 1
+used random number:387346491
+3 reference 36 (page 3)
+hit frame 1
+used random number:350322227
+4 reference 20 (page 2)
+hit frame 8
+used random number:841148365
+4 reference 21 (page 2)
+hit frame 8
+used random number:1960709859
+used random number:1760281936
+4 reference 16 (page 1)
+hit frame 5
+used random number:771151432
+1 reference 1 (page 0)
+hit frame 4
+used random number:1186452551
+1 reference 2 (page 0)
+hit frame 4
+used random number:1244316437
+1 reference 3 (page 0)
+hit frame 4
+used random number:971899228
+2 reference 23 (page 2)
+2 evict 3 on frame 3
+used random number:1476153275
+2 reference 24 (page 2)
+hit frame 3
+used random number:213975407
+2 reference 25 (page 2)
+hit frame 3
+used random number:1139901474
+3 reference 37 (page 3)
+hit frame 1
+used random number:1626276121
+3 reference 32 (page 3)
+hit frame 1
+used random number:653468858
+3 reference 33 (page 3)
+hit frame 1
+used random number:2130794395
+4 reference 17 (page 1)
+hit frame 5
+used random number:1239036029
+4 reference 12 (page 1)
+hit frame 5
+used random number:1884661237
+used random number:1605908235
+4 reference 35 (page 3)
+hit frame 7
+used random number:1350573793
+1 reference 4 (page 0)
+hit frame 4
+used random number:76065818
+1 reference 5 (page 0)
+hit frame 4
+used random number:1605894428
+1 reference 6 (page 0)
+hit frame 4
+used random number:1789366143
+2 reference 26 (page 2)
+hit frame 3
+used random number:1987231011
+2 reference 30 (page 3)
+2 evict 2 on frame 6
+used random number:1875335928
+2 reference 34 (page 3)
+hit frame 6
+used random number:1784639529
+3 reference 37 (page 3)
+hit frame 1
+used random number:2103318776
+3 reference 1 (page 0)
+3 evict 1 on frame 0
+used random number:1597322404
+3 reference 2 (page 0)
+hit frame 0
+used random number:1939964443
+4 reference 39 (page 3)
+hit frame 7
+used random number:2112255763
+used random number:1432114613
+4 reference 13 (page 1)
+hit frame 5
+used random number:1067854538
+4 reference 14 (page 1)
+hit frame 5
+used random number:352118606
+1 reference 1 (page 0)
+hit frame 4
+used random number:1782436840
+1 reference 36 (page 3)
+1 evict 2 on frame 2
+used random number:1909002904
+1 reference 31 (page 3)
+hit frame 2
+used random number:165344818
+2 reference 38 (page 3)
+hit frame 6
+used random number:1395235128
+2 reference 39 (page 3)
+hit frame 6
+used random number:532670688
+2 reference 0 (page 0)
+2 evict 4 on frame 8
+used random number:1351797369
+3 reference 6 (page 0)
+hit frame 0
+used random number:492067917
+3 reference 7 (page 0)
+hit frame 0
+used random number:1504569917
+3 reference 8 (page 0)
+hit frame 0
+used random number:680466996
+4 reference 15 (page 1)
+hit frame 5
+used random number:706043324
+4 reference 16 (page 1)
+hit frame 5
+used random number:496987743
+4 reference 17 (page 1)
+hit frame 5
+used random number:159259470
+1 reference 32 (page 3)
+hit frame 2
+used random number:1359512183
+1 reference 33 (page 3)
+hit frame 2
+used random number:480298490
+1 reference 34 (page 3)
+hit frame 2
+used random number:1398295499
+2 reference 1 (page 0)
+hit frame 8
+used random number:1096689772
+2 reference 2 (page 0)
+hit frame 8
+used random number:2086206725
+2 reference 6 (page 0)
+hit frame 8
+used random number:601385644
+3 reference 9 (page 0)
+hit frame 0
+used random number:1172755590
+3 reference 10 (page 1)
+3 evict 2 on frame 3
+used random number:1544617505
+3 reference 11 (page 1)
+hit frame 3
+used random number:243268139
+4 reference 18 (page 1)
+hit frame 5
+used random number:1012502954
+4 reference 19 (page 1)
+hit frame 5
+used random number:1272469786
+4 reference 14 (page 1)
+hit frame 5
+used random number:2027907669
+used random number:968338082
+1 reference 35 (page 3)
+hit frame 2
+used random number:722308542
+1 reference 36 (page 3)
+hit frame 2
+used random number:1820388464
+1 reference 31 (page 3)
+hit frame 2
+used random number:933110197
+2 reference 7 (page 0)
+hit frame 8
+used random number:6939507
+2 reference 8 (page 0)
+hit frame 8
+used random number:740759355
+2 reference 9 (page 0)
+hit frame 8
+used random number:1285228804
+3 reference 12 (page 1)
+hit frame 3
+used random number:1789376348
+3 reference 7 (page 0)
+hit frame 0
+used random number:502278611
+3 reference 8 (page 0)
+hit frame 0
+used random number:1450573622
+4 reference 2 (page 0)
+4 evict 3 on frame 1
+used random number:1037127828
+4 reference 3 (page 0)
+hit frame 1
+used random number:1034949299
+4 reference 4 (page 0)
+hit frame 1
+used random number:654887343
+1 reference 32 (page 3)
+hit frame 2
+used random number:1529195746
+1 reference 33 (page 3)
+hit frame 2
+used random number:392035568
+1 reference 34 (page 3)
+hit frame 2
+used random number:1335354340
+2 reference 10 (page 1)
+2 evict 4 on frame 7
+used random number:87755422
+2 reference 11 (page 1)
+hit frame 7
+used random number:889023311
+2 reference 12 (page 1)
+hit frame 7
+used random number:1494613810
+3 reference 9 (page 0)
+hit frame 0
+used random number:1447267605
+3 reference 10 (page 1)
+hit frame 3
+used random number:1369321801
+3 reference 11 (page 1)
+hit frame 3
+used random number:745425661
+4 reference 5 (page 0)
+hit frame 1
+used random number:396473730
+4 reference 6 (page 0)
+hit frame 1
+used random number:1308044878
+4 reference 1 (page 0)
+hit frame 1
+used random number:1346811305
+1 reference 35 (page 3)
+hit frame 2
+used random number:1569229320
+1 reference 36 (page 3)
+hit frame 2
+used random number:705178736
+1 reference 37 (page 3)
+hit frame 2
+used random number:1590079444
+2 reference 13 (page 1)
+hit frame 7
+used random number:434248626
+2 reference 14 (page 1)
+hit frame 7
+used random number:1977648522
+2 reference 18 (page 1)
+hit frame 7
+used random number:1470503465
+3 reference 12 (page 1)
+hit frame 3
+used random number:1402586708
+3 reference 13 (page 1)
+hit frame 3
+used random number:552473416
+3 reference 14 (page 1)
+hit frame 3
+used random number:1143408282
+4 reference 5 (page 0)
+hit frame 1
+used random number:188213258
+4 reference 6 (page 0)
+hit frame 1
+used random number:559412924
+4 reference 7 (page 0)
+hit frame 1
+used random number:1884167637
+used random number:1473442062
+1 reference 38 (page 3)
+hit frame 2
+used random number:201305624
+1 reference 39 (page 3)
+hit frame 2
+used random number:238962600
+1 reference 0 (page 0)
+hit frame 4
+used random number:776532036
+2 reference 19 (page 1)
+hit frame 7
+used random number:1238433452
+2 reference 20 (page 2)
+2 evict 2 on frame 6
+used random number:1273911899
+2 reference 21 (page 2)
+hit frame 6
+used random number:1431419379
+3 reference 15 (page 1)
+hit frame 3
+used random number:620145550
+3 reference 16 (page 1)
+hit frame 3
+used random number:1665947468
+3 reference 11 (page 1)
+hit frame 3
+used random number:619290071
+4 reference 22 (page 2)
+4 evict 4 on frame 5
+used random number:707900973
+4 reference 23 (page 2)
+hit frame 5
+used random number:407487131
+4 reference 24 (page 2)
+hit frame 5
+used random number:2113903881
+used random number:7684930
+1 reference 1 (page 0)
+hit frame 4
+used random number:1776808933
+1 reference 36 (page 3)
+hit frame 2
+used random number:711845894
+1 reference 37 (page 3)
+hit frame 2
+used random number:404158660
+2 reference 22 (page 2)
+hit frame 6
+used random number:937370163
+2 reference 23 (page 2)
+hit frame 6
+used random number:2058657199
+2 reference 27 (page 2)
+hit frame 6
+used random number:1973387981
+3 reference 12 (page 1)
+hit frame 3
+used random number:1642548899
+3 reference 7 (page 0)
+hit frame 0
+used random number:1501252996
+3 reference 8 (page 0)
+hit frame 0
+used random number:260152959
+4 reference 10 (page 1)
+4 evict 2 on frame 8
+used random number:1472713773
+4 reference 14 (page 1)
+hit frame 8
+used random number:824272813
+4 reference 15 (page 1)
+hit frame 8
+used random number:1662739668
+used random number:2025187190
+1 reference 38 (page 3)
+hit frame 2
+used random number:1967681095
+1 reference 33 (page 3)
+hit frame 2
+used random number:1850952926
+1 reference 28 (page 2)
+1 evict 4 on frame 1
+used random number:437116466
+2 reference 31 (page 3)
+2 evict 2 on frame 7
+used random number:1704365084
+2 reference 35 (page 3)
+hit frame 7
+used random number:1176911340
+2 reference 36 (page 3)
+hit frame 7
+used random number:638422090
+3 reference 9 (page 0)
+hit frame 0
+used random number:1943327684
+3 reference 13 (page 1)
+hit frame 3
+used random number:1953443376
+3 reference 17 (page 1)
+hit frame 3
+used random number:1876855542
+4 reference 30 (page 3)
+4 evict 4 on frame 5
+used random number:1069755936
+4 reference 31 (page 3)
+hit frame 5
+used random number:1237379107
+4 reference 26 (page 2)
+4 evict 1 on frame 4
+used random number:349517445
+1 reference 29 (page 2)
+hit frame 1
+used random number:588219756
+1 reference 30 (page 3)
+hit frame 2
+used random number:1856669179
+1 reference 25 (page 2)
+hit frame 1
+used random number:1057418418
+2 reference 37 (page 3)
+hit frame 7
+used random number:995706887
+2 reference 38 (page 3)
+hit frame 7
+used random number:1823089412
+2 reference 2 (page 0)
+2 evict 2 on frame 6
+used random number:1065103348
+3 reference 12 (page 1)
+hit frame 3
+used random number:625032172
+3 reference 13 (page 1)
+hit frame 3
+used random number:387451659
+3 reference 14 (page 1)
+hit frame 3
+used random number:1469262009
+4 reference 27 (page 2)
+hit frame 4
+used random number:1562402336
+4 reference 31 (page 3)
+hit frame 5
+used random number:298625210
+4 reference 32 (page 3)
+hit frame 5
+used random number:1295166342
+1 reference 26 (page 2)
+hit frame 1
+used random number:1057467587
+1 reference 27 (page 2)
+hit frame 1
+used random number:1799878206
+1 reference 22 (page 2)
+hit frame 1
+used random number:1555319301
+2 reference 3 (page 0)
+hit frame 6
+used random number:382697713
+2 reference 4 (page 0)
+hit frame 6
+used random number:476667372
+2 reference 5 (page 0)
+hit frame 6
+used random number:1070575321
+3 reference 15 (page 1)
+hit frame 3
+used random number:260401255
+3 reference 16 (page 1)
+hit frame 3
+used random number:296864819
+3 reference 17 (page 1)
+hit frame 3
+used random number:774044599
+4 reference 27 (page 2)
+hit frame 4
+used random number:697517721
+4 reference 28 (page 2)
+hit frame 4
+used random number:2001229904
+used random number:1950955939
+4 reference 19 (page 1)
+hit frame 8
+used random number:1335939811
+1 reference 23 (page 2)
+hit frame 1
+used random number:1797073940
+1 reference 18 (page 1)
+1 evict 3 on frame 0
+used random number:1756915667
+1 reference 13 (page 1)
+hit frame 0
+used random number:1065311705
+2 reference 6 (page 0)
+hit frame 6
+used random number:719346228
+2 reference 7 (page 0)
+hit frame 6
+used random number:846811127
+2 reference 8 (page 0)
+hit frame 6
+used random number:1414829150
+3 reference 18 (page 1)
+hit frame 3
+used random number:1307565984
+3 reference 19 (page 1)
+hit frame 3
+used random number:555996658
+3 reference 20 (page 2)
+3 evict 1 on frame 2
+used random number:324763920
+4 reference 14 (page 1)
+hit frame 8
+used random number:155789224
+4 reference 15 (page 1)
+hit frame 8
+used random number:231602422
+4 reference 16 (page 1)
+hit frame 8
+used random number:1389867269
+1 reference 14 (page 1)
+hit frame 0
+used random number:780821396
+1 reference 15 (page 1)
+hit frame 0
+used random number:619054081
+1 reference 16 (page 1)
+hit frame 0
+used random number:711645630
+2 reference 9 (page 0)
+hit frame 6
+used random number:195740084
+2 reference 10 (page 1)
+2 evict 2 on frame 7
+used random number:917679292
+2 reference 11 (page 1)
+hit frame 7
+used random number:2006811972
+3 reference 21 (page 2)
+hit frame 2
+used random number:1253207672
+3 reference 22 (page 2)
+hit frame 2
+used random number:570073850
+3 reference 23 (page 2)
+hit frame 2
+used random number:1414647625
+4 reference 20 (page 2)
+hit frame 4
+used random number:1635905385
+used random number:1046741222
+4 reference 22 (page 2)
+hit frame 4
+used random number:337739299
+4 reference 23 (page 2)
+hit frame 4
+used random number:1896306640
+used random number:1343606042
+1 reference 17 (page 1)
+hit frame 0
+used random number:1111783898
+1 reference 18 (page 1)
+hit frame 0
+used random number:446340713
+1 reference 19 (page 1)
+hit frame 0
+used random number:1197352298
+2 reference 15 (page 1)
+hit frame 7
+used random number:915256190
+2 reference 16 (page 1)
+hit frame 7
+used random number:1782280524
+2 reference 20 (page 2)
+2 evict 4 on frame 5
+used random number:846942590
+3 reference 24 (page 2)
+hit frame 2
+used random number:524688209
+3 reference 25 (page 2)
+hit frame 2
+used random number:700108581
+3 reference 26 (page 2)
+hit frame 2
+used random number:1566288819
+4 reference 2 (page 0)
+4 evict 1 on frame 1
+used random number:1371499336
+4 reference 6 (page 0)
+hit frame 1
+used random number:2114937732
+used random number:726371155
+4 reference 35 (page 3)
+4 evict 3 on frame 3
+used random number:1927495994
+used random number:292218004
+1 reference 20 (page 2)
+1 evict 4 on frame 8
+used random number:882160379
+1 reference 21 (page 2)
+hit frame 8
+used random number:11614769
+1 reference 22 (page 2)
+hit frame 8
+used random number:1682085273
+2 reference 21 (page 2)
+hit frame 5
+used random number:1662981776
+2 reference 25 (page 2)
+hit frame 5
+used random number:630668850
+2 reference 26 (page 2)
+hit frame 5
+used random number:246247255
+3 reference 27 (page 2)
+hit frame 2
+used random number:1858721860
+3 reference 22 (page 2)
+hit frame 2
+used random number:1548348142
+3 reference 23 (page 2)
+hit frame 2
+used random number:105575579
+4 reference 4 (page 0)
+hit frame 1
+used random number:964445884
+4 reference 5 (page 0)
+hit frame 1
+used random number:2118421993
+used random number:1520223205
+4 reference 5 (page 0)
+hit frame 1
+used random number:452867621
+1 reference 17 (page 1)
+hit frame 0
+used random number:1017679567
+1 reference 18 (page 1)
+hit frame 0
+used random number:1857962504
+1 reference 13 (page 1)
+hit frame 0
+used random number:201690613
+2 reference 27 (page 2)
+hit frame 5
+used random number:213801961
+2 reference 28 (page 2)
+hit frame 5
+used random number:822262754
+2 reference 29 (page 2)
+hit frame 5
+used random number:648031326
+3 reference 24 (page 2)
+hit frame 2
+used random number:1411154259
+3 reference 25 (page 2)
+hit frame 2
+used random number:1737518944
+3 reference 20 (page 2)
+hit frame 2
+used random number:282828202
+4 reference 6 (page 0)
+hit frame 1
+used random number:110613202
+4 reference 7 (page 0)
+hit frame 1
+used random number:114723506
+4 reference 8 (page 0)
+hit frame 1
+used random number:982936784
+1 reference 14 (page 1)
+hit frame 0
+used random number:1676902021
+1 reference 9 (page 0)
+1 evict 2 on frame 6
+used random number:1486222842
+1 reference 10 (page 1)
+hit frame 0
+used random number:950390868
+2 reference 30 (page 3)
+2 evict 4 on frame 4
+used random number:255789528
+2 reference 31 (page 3)
+hit frame 4
+used random number:1266235189
+2 reference 32 (page 3)
+hit frame 4
+used random number:1242608872
+3 reference 21 (page 2)
+hit frame 2
+used random number:1137949908
+3 reference 22 (page 2)
+hit frame 2
+used random number:1277849958
+3 reference 23 (page 2)
+hit frame 2
+used random number:777210498
+4 reference 9 (page 0)
+hit frame 1
+used random number:653448036
+4 reference 10 (page 1)
+4 evict 2 on frame 7
+used random number:1908518808
+used random number:1023457753
+4 reference 33 (page 3)
+hit frame 3
+used random number:364686248
+1 reference 11 (page 1)
+hit frame 0
+used random number:1309383303
+1 reference 12 (page 1)
+hit frame 0
+used random number:1129033333
+1 reference 13 (page 1)
+hit frame 0
+used random number:1329132133
+2 reference 33 (page 3)
+hit frame 4
+used random number:1280321648
+2 reference 34 (page 3)
+hit frame 4
+used random number:501772890
+2 reference 35 (page 3)
+hit frame 4
+used random number:1781999754
+3 reference 24 (page 2)
+hit frame 2
+used random number:150517567
+3 reference 25 (page 2)
+hit frame 2
+used random number:212251746
+3 reference 26 (page 2)
+hit frame 2
+used random number:1983690368
+4 reference 34 (page 3)
+hit frame 3
+used random number:364319529
+4 reference 35 (page 3)
+hit frame 3
+used random number:1034514500
+4 reference 36 (page 3)
+hit frame 3
+used random number:484238046
+1 reference 14 (page 1)
+hit frame 0
+used random number:1775473788
+2 reference 39 (page 3)
+hit frame 4
+used random number:624549797
+3 reference 30 (page 3)
+3 evict 1 on frame 8
+used random number:767066249
+4 reference 37 (page 3)
+hit frame 3
+used random number:1886086990
+used random number:739273303
+
+The machine size is 90.
+The page size is 10.
+The process size is 40.
+The job mix number is 4.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 0
+Process 1 had 9 faults and 31.42857 average residency.
+Process 2 had 18 faults and 17.12500 average residency.
+Process 3 had 8 faults and 49.83333 average residency.
+Process 4 had 15 faults and 23.08333 average residency.
+
+The total number of faults is 50 and the overall average residency is 26.09756.

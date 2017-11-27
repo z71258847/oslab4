@@ -11,9 +11,11 @@ int M, P, S, J, N, R, tot_frame, tot_page, tot_process, debug=0;
 int tot_finished, cur_t = 0, last_in;
 
 double get_random(){
-	double x,y;
+	int x;
+	double y;
 	randomin >> x;
-	y = x / 2147483648.0;
+	printf("used random number:%d\n", x);
+	y = (double) x / 2147483648.0;
 	return y;
 }
 
@@ -34,7 +36,9 @@ struct Process{
 		A = _A;
 		B = _B;
 		C = _C;
-		cur = index*111 % S;
+		//printf("%d, %d\n", index, S);
+		cur = (index * 111) % S;
+		//printf("current: %d\n", cur);
 		page_table.clear();
 		page_table.assign(tot_page, -1);
 		remain = N;
@@ -53,6 +57,7 @@ struct Process{
 		else{
 			int x;
 			randomin >> x;
+			printf("used random number:%d\n", x);
 			cur = x % S;
 		}
 	}
@@ -80,12 +85,13 @@ void lifo_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
 	pros[x].load_time = cur_t;
-	printf("%d evict %d on frame %d\n", x, last_process, last_in);
+	//printf("%d evict %d on frame %d\n", x, last_process, last_in);
 }
 
 void random_replacement(int x, int page_number){
 	int choose_frame;
 	randomin >> choose_frame;
+	//printf("%d used random number: %d", x, choose_frame);
 	choose_frame %= tot_frame;
 	int last_process = frame_table[choose_frame].process_index;
 	int last_page = frame_table[choose_frame].page_index;
@@ -96,7 +102,7 @@ void random_replacement(int x, int page_number){
 	pros[last_process].evict_count++;
 	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
 	pros[x].load_time = cur_t;
-	printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
+	//printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
 int choose_lru(){
@@ -147,9 +153,10 @@ int main(int argc, char* argv[]){
 	N = atoi(argv[5]);
 	//string key = argv[6];
 	debug = atoi(argv[7]);
-	if (strcmp(argv[6], "lifo")) R=0;
-	else if(strcmp(argv[6], "random")) R=1;
-	else if(strcmp(argv[6], "lru")) R=2;
+	if (strcmp(argv[6],"lifo")==0) R=0;
+	else if(strcmp(argv[6],"random")==0) R=1;
+	else if(strcmp(argv[6],"lru")==0) R=2;
+	//printf("%d\n", R);
 	//M=20; P=10; S=10; J=2; N=10; R=2; debug=0;
 	tot_frame = M / P;
 	tot_page = S / P;
@@ -172,9 +179,9 @@ int main(int argc, char* argv[]){
 	else{
 		tot_process = 4;
 		pros[1] = Process(0.75,0.25,0,1);
-		pros[2] = Process(0.75,0,0.25,1);
-		pros[3] = Process(0.75,0.125,0.125,1);
-		pros[4] = Process(0.5,0.125,0.125,1);
+		pros[2] = Process(0.75,0,0.25,2);
+		pros[3] = Process(0.75,0.125,0.125,3);
+		pros[4] = Process(0.5,0.125,0.125,4);
 	}
 	tot_finished = 0;
 	while (tot_finished < tot_process){
@@ -182,7 +189,7 @@ int main(int argc, char* argv[]){
 			if (!pros[i].finished){
 				for (int q=0; q<3; q++) {
 					cur_t++;
-					int cur_page = (pros[i].cur - 1) / P;
+					int cur_page = pros[i].cur / P;
 					printf("%d reference %d (page %d)\n", i, pros[i].cur, cur_page);
 					if (pros[i].page_table[cur_page] == -1){
 						pros[i].fault_count++;
@@ -218,6 +225,7 @@ int main(int argc, char* argv[]){
 			}
 		}
 	}
+	cout << endl;
 	printf("The machine size is %d.\n", M);
 	printf("The page size is %d.\n", P);
 	printf("The process size is %d.\n", S);
