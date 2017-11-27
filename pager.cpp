@@ -26,7 +26,8 @@ struct Frame{
 };
 
 struct Process{
-	int cur, fault_count = 0, evict_count = 0, recidency_time = 0, load_time = 0;
+	int cur, fault_count = 0, evict_count = 0, recidency_time = 0;
+	vector<int> load_time;
 	double A, B, C;
 	int remain;
 	bool finished;
@@ -36,17 +37,16 @@ struct Process{
 		A = _A;
 		B = _B;
 		C = _C;
-		//printf("%d, %d\n", index, S);
 		cur = (index * 111) % S;
-		//printf("current: %d\n", cur);
 		page_table.clear();
 		page_table.assign(tot_page, -1);
+		load_time.clear();
+		load_time.assign(tot_page, -1);
 		remain = N;
 		finished = false;
 		fault_count = 0;
 		evict_count = 0;
 		recidency_time = 0;
-		load_time = 0;
 	}
 	
 	void get_next(){
@@ -83,8 +83,8 @@ void lifo_replacement(int x, int page_number){
 	frame_table[last_in].page_index = page_number;
 	pros[x].page_table[page_number] = last_in;
 	pros[last_process].evict_count++;
-	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
-	pros[x].load_time = cur_t;
+	pros[last_process].recidency_time += cur_t - pros[last_process].load_time[last_page];
+	pros[x].load_time[page_number] = cur_t;
 	//printf("%d evict %d on frame %d\n", x, last_process, last_in);
 }
 
@@ -100,8 +100,8 @@ void random_replacement(int x, int page_number){
 	frame_table[choose_frame].page_index = page_number;
 	pros[x].page_table[page_number] = choose_frame;
 	pros[last_process].evict_count++;
-	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
-	pros[x].load_time = cur_t;
+	pros[last_process].recidency_time += cur_t - pros[last_process].load_time[last_page];
+	pros[x].load_time[page_number] = cur_t;
 	//printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
@@ -125,8 +125,8 @@ void lru_replacement(int x, int page_number){
 	frame_table[choose_frame].page_index = page_number;
 	pros[x].page_table[page_number] = choose_frame;
 	pros[last_process].evict_count++;
-	pros[last_process].recidency_time += cur_t - pros[last_process].load_time;
-	pros[x].load_time = cur_t;
+	pros[last_process].recidency_time += cur_t - pros[last_process].load_time[last_page];
+	pros[x].load_time[page_number] = cur_t;
 	printf("%d evict %d on frame %d\n", x, last_process, choose_frame);
 }
 
@@ -203,7 +203,7 @@ int main(int argc, char* argv[]){
 							frame_table[free_frame].last_use = cur_t;
 							frame_table[free_frame].used = true;
 							pros[i].page_table[cur_page] = free_frame;
-							pros[i].load_time = cur_t;
+							pros[i].load_time[cur_page] = cur_t;
 							printf("fault, using free frame %d\n", free_frame);
 						}
 						last_in = pros[i].page_table[cur_page];
